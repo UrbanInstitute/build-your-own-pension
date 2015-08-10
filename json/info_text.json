@@ -1,0 +1,57 @@
+
+{
+  "start_age" : "This represents the age a person starts working and contributing to the plan.",
+
+  "base_mutiplier" : "This the percentage of final average salary that, when multiplied by completed years of service, determines the annual pension benefit.",
+
+  "multiplier_bonus" : "For each year that a member delays collecting a pension past the normal retirement age, this percentage is added to the salary multiplier. This plan feature is not common.",
+
+  "cola" : "This is the percentage by which annual pension benefits increase each year after a member begins collecting, so as to maintain the pension’s purchasing power throughout retirement.",
+
+  "early_reduction_factor" : "Annual pension benefits are reduced by this amount for every year that they are collected before the normal retirement age.",
+
+  "NRA" : "This is the age at which vested members may begin collecting full benefits.",
+
+  "fas_years" : "This is the number of years used to compute final average salary (FAS).",
+
+  "vest_years" : "This is the number of years of service required to qualify for retirement benefits.",
+
+  "employee_contrib_rate" : "This is the annual percentage of salary that members are required to contribute to the plan each year.",
+
+  "start_salary" : "This is annual salary earned by all new employees, in 2014 inflation-adjusted dollars.",
+
+  "inflation" : "This is the assumed annual change in the <a href=\"http://www.bls.gov/cpi/\">consumer price index</a>.",
+
+  "wage_growth" : "This is an additional percentage by which salaries increase each year, reflecting overall productivity growth.",
+
+  "ror" : "This is the assumed annual nominal investment return on plan assets.",
+
+  "ror_sigma" : "This is the assumed standard deviation on the investment return for plan assets.",
+
+  "discount" : "This is the rate by which members <a href=\"http://pages.stern.nyu.edu/~adamodar/New_Home_Page/PVPrimer/pvprimer.htm\">discount</a> future income, reflecting their expected annual investment returns.",
+
+  "employer_contrib_rate" : "This is the percentage of salary that the employer contributes to a member’s account each year.",
+
+  "cap" : "This is the maximum nominal return credited to members’ accounts each year.",
+
+  "guarantee" : "This is the minimum nominal investment return credited to members’ accounts each year.",
+
+  "cash_out" : "This is the interest rate paid on employee contributions to members who choose to have their contributions refunded when they separate instead of receiving a pension.",
+
+  "ERA" : "This is the age at which vested members may begin collecting early reduced benefits.",
+
+  "additional_fas_growth" : "Final average salary is increased by this percentage for each year that a member separates before collecting a pension. This plan feature is not common.",
+
+  "benefit75" : "This is the expected annual benefit at age 75 in 2014 inflation-adjusted dollars, under the assumption that members collect single life annuities and take up benefits at the age that maximizes the value of their lifetime pension. The calculations also assume that cash balance plan members annuitize their account balances at age 65 (or the year they separate if that occurs later).",
+
+  "replacement" : "This is the age-75 pension benefit and Social Security benefit (if the plan provides Social Security coverage) divided by age-60 salary, both measured in 2014 inflation-adjusted dollars. For plans that provide Social Security coverage, the calculations assume that members will work in Social Security-covered employment for 40 years, even if they spend less time in any employer-sponsored pension plan. A useful rule of thumb is that retirees must replace between 70 and 80 percent of their earnings to maintain their pre-retirement living standard in old age.",
+
+  "wealth" : "For final average salary plans, this is the expected present value of the future stream of retirement benefits, computed by summing annual benefits that will be collected from the benefit take-up age until age 120—the assumed maximum lifespan—but discounting future benefits by the user-set discount rate and the probability that retirees will die before receiving their payments. The value is measured at the year members leave their job and expressed in 2014 inflation-adjusted dollars. For cash balance plans, this is the account balance at time of separation, expressed in 2014 inflation-adjusted dollars.",
+
+  "net_wealth" : "For final average salary plans, this is the value of total lifetime pension benefits, minus the value of lifetime employee contributions, measured at the year members leave their job and expressed in 2014 inflation-adjusted dollars. The value of lifetime employee contributions is computed by summing annual contributions and assuming they earn investment returns each year equal to the user-set discount rate. For cash balance plans, this is the value of accumulated value of employer contributions in a member’s account at time of separation, expressed in 2014 inflation-adjusted dollars.",
+
+  "net_accrual" : "This is the change in the value of lifetime pension benefits, net of employee contributions, resulting from an additional year of work. It is expressed in 2014 inflation-adjusted dollars. Large, positive values encourage members to remain in the plan, whereas negative values encourage employees to leave.",
+
+  "gov_equiv_rate" : "This is the portion of salary that the employer would have to set aside each year (with employee contributions) to finance the stream of future benefits that members will receive once they retire. These calculations show how much retirement benefits supplement employee salaries, averaged over their careers, assuming that member contributions earn annual investment returns equal to the user-set discount rate."
+
+}

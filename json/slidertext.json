@@ -1,0 +1,31 @@
+
+{
+  "start_age" : "This represents the age a person starts working and contributing to the plan.",
+  "base_mutiplier" : "The number of years in a person's career is multiplied by this percentage to determine the starting percentage of final average salary they recieve each year as a benefit.",
+  "multiplier_bonus" : "A person's salary multiplier is increased by this percentage for each year they work beyond the retirement age.",
+  "cola" : "The percentage a person's benefit increases each year to match changes in inflation. For Cash Balance plans, this is applied to an actuarily fair annuity.",
+  "early_reduction_factor" : "The penalty imposed on a person's Salary Multiplier for retiring before the retirement age.",
+  "NRA" : "The normal (in legal terms) age of retirement in the plan.",
+  "fas_years" : "The number of years to use in calculating the final average salary.",
+  "vest_years" : "The number of years before a person can revieve any pension benefits",
+  "employee_contrib_rate" : "The percentage of salary a person must contribute each year towards their own pension plan.",
+  "start_salary" : "The assumed starting salary for all employees.",
+  "inflation" : "The assumed average <a href=\"http://www.bls.gov/cpi/\">Consumer Price Index</a>.",
+  "wage_growth" : "The assumed additional increase in wages, above and beyond the <a href=\"http://www.bls.gov/cpi/\">Consumer Price Index</a>. This is normally due to merit based increases.",
+  "ror" : "The assumed average rate of return on government assets.",
+  "ror_sigma" : "The standard deviation of the rate of return on government assets.",
+  "discount" : "The return a person can reasonably expect to earn on the stock market (without perfect foresight). This is used to calculate the <a href=\"http://pages.stern.nyu.edu/~adamodar/New_Home_Page/PVPrimer/pvprimer.htm\">time value of money</a> for the individual.",
+  "benefit75" : "<p>The benefit an individual can expect to recieve at age 75.",
+  "replacement" : "<p>The benefit an individual can expect to recieve at age 75, divided by the salary they recieved at age 60. This provides a measure of the how much of their salary an individual can expect to replace upon retirement.</p>",
+  "wealth" : "<p>The total economic value of an individuals retirement benefits over the course of their entire life after retirement. It is expressed in constant 2014 dollars.<p>",
+  "net_wealth" : "<p>The total economic value of an individuals retirement benefits, minus their contributions, over the course of their entire life after retirement. It is expressed in constant 2014 dollars.<p>",
+  "accrual" : "<p>The amount an individual accumulates each year towards the total economic value of their pension benefits. It is expressed in constant 2014 dollars.",
+  "employer_contrib_rate" : "The percentage of a persons salary that the government contributes to an individuals Cash Balance Plan",
+  "cap" : "The maximum return allowed on Cash Balance accounts, this is to compensate the government for the risk of providing a return guarantee.",
+  "cap_bonus" : "If there is a cap, this is the percentage of market returns above the cap that are still credited to an individual's CB account.",
+  "guarantee" : "This is the minimum guaranteed rate of market return that the government ensures.",
+  "gov_equiv_rate" : "The fixed percentage of teachers’ salaries that employers would have to contribute each year to finance promised benefits.",
+  "cash_out" : "The rate of return used to calculate an account balance for Cash Balance participants who have not yet vested.",
+  "ERA" : "The early retirement age. A penalty is applied for retiring before the normal retirement age."
+
+}
