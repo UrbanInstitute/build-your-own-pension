@@ -1,0 +1,20 @@
+{
+  "name": "Modeler",
+  "version": "0.1.2",
+  "dependencies": {
+    "grunt-cli" : "latest",
+    "grunt-contrib-concat": "latest",
+    "grunt-contrib-uglify": "latest",
+    "grunt-contrib-cssmin": "latest",
+    "grunt-contrib-htmlmin": "latest",
+    "grunt-contrib-watch": "latest",
+    "grunt-contrib-coffee": "latest",
+    "grunt-contrib-copy": "latest",
+    "grunt-browser-sync": "latest",
+    "grunt-processhtml": "latest",
+    "browserify" : "latest",
+    "grunt-browserify" : "latest",
+    "coffeeify" : "latest",
+    "fast-csv" : "latest"
+  }
+}

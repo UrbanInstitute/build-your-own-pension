@@ -1,0 +1,284 @@
+/*
+  Main interface styles for Modeler Project
+  12/3/14
+  Ben Southgate (bsouthga@gmail.com)
+*/
+
+
+/* -------------------------------
+    Top level element styles
+   ------------------------------- */
+
+body {
+  font-family: 'Lato', 'Helvetica', sans-serif;
+  background-color: #fff;
+  text-rendering: geometricPrecision ;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+body.modal-open {
+    overflow: visible;
+}
+
+h1#main_header {
+  color:#666;
+  font-weight: normal;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h1.subsection-header {
+  color: #777;
+  font-weight: normal;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 20px;
+  text-align: left;
+  padding: 10px;
+}
+
+h3 {
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+i:hover {
+  color : #777;
+  cursor: pointer;
+}
+
+#intro-text {
+  font-size: 25px;
+  color :#1696d2;
+  font-weight: 300;
+}
+
+#intro-text a {
+  color :#428bca;
+  text-decoration: underline;
+}
+
+#chart_table {
+  text-align: center;
+}
+
+#content {
+  min-width: 500px;
+  padding-top: 50px;
+}
+
+#interface {
+  opacity: 0;
+  margin-top: 130px;
+}
+
+#loading-overlay {
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  width: 100%;
+  padding-top: 150px;
+  background-color: #fff;
+  z-index: 10;
+}
+
+#loading {
+  text-align: center;
+  font-size:40px;
+  color:#aaa;
+}
+
+#loading div{
+  font-size:90px;
+}
+
+input#share_input {
+  font-size: 14px;
+  z-index: 0;
+}
+
+
+
+#buttons {
+  margin-top: 30px;
+  text-align: left;
+}
+
+#buttons div.urban-button {
+  display: inline-block;
+  text-align: center;
+  padding : 7px;
+  background-color: #000;
+  color: #fff;
+  width : 45%;
+  cursor: pointer;
+}
+
+#buttons div.urban-button:hover {
+  background-color: #777;
+}
+
+#buttons div.urban-button:first-child {
+  margin-right: 2%;
+}
+
+#byline {
+  font-style: italic;
+}
+
+.urban-footer {
+  display: block;
+  width: 70%;
+  margin: 20px auto;
+  text-align: center;
+  padding: 0;
+  margin-bottom: 50px;
+  float : none;
+}
+
+.hr-wrapper {
+  width: 100%;
+  text-align: center;
+}
+
+.modal-header {
+  background-color: #fafafa;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.modal-header h2 {
+  font-weight: 900;
+}
+
+.nopadding {
+   padding-left: 0 !important;
+}
+
+.share-input-group {
+  width: 70%;
+  margin: 10px auto;
+  display: block;
+}
+
+
+/* ---------------------------
+    Tour styling
+  ----------------------------
+*/
+
+#start_tour:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.next-container {
+  display: block;
+  width: 100%;
+  text-align: left;
+  margin-top: 3px;
+  padding-top: 5px;
+  border-top: 1px solid #ddd;
+}
+
+
+/*  ----------------------------
+    Bootstrap overrides
+    ---------------------------- */
+
+div.tooltip-inner {
+  max-width:200px;
+  padding:15px 18px;
+  color:#fff;
+  text-align:center;
+  text-decoration:none;
+  background-color:#000;
+  border-radius:4px;
+}
+
+.panel div.panel-heading.settings-heading {
+  font-weight: 900;
+  color :#000;
+  font-size: 14px;
+  background-color: #fafafa;
+}
+
+div.tooltip div{
+  text-align: left;
+  opacity: 0.95;
+}
+
+.nonborderbox *,
+div.Modeler-slider,
+input.slider-text-input,
+div.grade_div,
+div.grade_div.minigrade
+{
+  -webkit-box-sizing: content-box;
+     -moz-box-sizing: content-box;
+          box-sizing: content-box;
+}
+
+
+div .panel {
+  border-radius: 10px;
+}
+
+.panel div.panel-heading {
+  padding-bottom : 3px;
+  padding-top: 5px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  font-size: 16px;
+  font-weight: 300;
+  background-color: #fff;
+  color: #777;
+}
+
+.modal-dialog-center {
+    margin-top: 100px;
+}
+
+.btn.btn-primary {
+  background-color: #1696d2;
+  border-color: #1696d2;
+}
+
+
+/*  --------------------
+    Loading Animation
+    -------------------- */
+
+.fa-refresh-animate {
+    -animation: spin 3s infinite linear;
+    -o-animation: spinO 3s infinite linear;
+    -moz-animation: spinMOZ 3s infinite linear;
+    -webkit-animation: spinWK 3s infinite linear;
+}
+
+@-webkit-keyframes spinWK {
+    from { -webkit-transform: rotate(0deg);}
+    to { -webkit-transform: rotate(360deg);}
+}
+
+@-moz-keyframes spinMOZ {
+    from { -moz-transform: rotate(0deg);}
+    to { -moz-transform: rotate(360deg);}
+}
+
+@-o-keyframes spinO {
+    from { -o-transform: rotate(0deg);}
+    to { -o-transform: rotate(360deg);}
+}
+
+@keyframes spin {
+    from { transform: scale(1) rotate(0deg);}
+    to { transform: scale(1) rotate(360deg);}
+}
+
+
+
+
+

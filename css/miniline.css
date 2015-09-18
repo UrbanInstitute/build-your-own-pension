@@ -1,0 +1,68 @@
+/*
+  Styles for small line charts
+  12/3/14
+  Ben Southgate (bsouthga@gmail.com)
+*/
+
+
+.collapse-container {
+  font-size: 12px;
+}
+
+.assumption-plot {
+  width: 100%;
+  display: block;
+}
+
+.assumption-plot svg text {
+  font-size: 10px;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #777;
+  stroke-width: 1px;
+  shape-rendering: crispEdges;
+}
+
+.grid.miniline .tick line {
+  stroke-dasharray: 3, 3;
+  stroke : #aaa;
+  stroke-width : 1;
+}
+
+.y.axis.miniline path.domain {
+  fill : none;
+  stroke : none;
+}
+
+.y.axis.miniline .tick line{
+  fill : none;
+  stroke : none;
+}
+
+.x.axis.miniline path.domain {
+  fill : none;
+  stroke : #777;
+}
+
+.miniline.line {
+  fill : none;
+  stroke : #000;
+  stroke-width : 1;
+}
+
+.y-title.miniline {
+  font-size: 10px;
+}
+
+.miniline.hovercircle {
+  stroke :#777;
+  stroke-width : 1.5;
+  fill : #fff;
+}
+
+text.miniline.hovertext {
+  font-size: 12px;
+}

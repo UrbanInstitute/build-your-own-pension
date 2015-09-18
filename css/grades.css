@@ -1,0 +1,121 @@
+/*
+  SLEPP Grades Styles for Modeler Project
+  12/3/14
+  Ben Southgate (bsouthga@gmail.com)
+*/
+
+
+#hover {
+  font-size: 12px;
+}
+
+#grades {
+  margin-top: 20px;
+}
+
+#grades table {
+  width: 100%;
+}
+
+#grades .title-text {
+  margin-bottom: 2px;
+}
+
+.grade_cell td:first-child {
+  padding-right: 10px;
+}
+
+.grade_cell {
+  height: 40px;
+  width: 100%;
+}
+
+.grade_cell:not(:last-child) {
+  border-bottom: 1px solid #ccc;
+}
+
+.grade_tooltip_header {
+  margin-bottom: 5px;
+  display: block;
+}
+
+.grade_description {
+  display: inline-block;
+  font-size: 14px;
+  line-height: 16px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  color: #444;
+}
+
+#grade_tooltip {
+  display: block;
+  position : absolute;
+  display : top;
+  opacity : 0;
+  background : #fff;
+  width : 250px;
+  font-size : 14px;
+  border-radius: 5px;
+  padding: 30px;
+  z-index: 999;
+}
+
+.grade_div_container {
+  width: 40px;
+}
+
+.grade_div {
+  font-weight: bold;
+  font-size: 16px;
+  height: 20px;
+  width: 20px;
+  line-height: 20px;
+  margin: 0;
+  padding: 2px;
+  border-radius: 3px;
+  text-align:center;
+}
+
+.grade_div.minigrade {
+  font-size: 12px;
+  height: 16px;
+  padding:3px;
+  width: 20px;
+  line-height: 12px;
+  display: inline-block;
+}
+
+.grade_div.N {
+  padding-top: 6px;
+  font-size: 10px;
+  height: 20px;
+  line-height: 12px;  
+  background-color: #666666;
+  color:white;
+}
+
+.grade_div.A {
+  background-color:#00578b;
+  color: white;
+}
+
+.grade_div.B {
+  background-color:#1696d2;
+  color: white;
+}
+
+.grade_div.C {
+  background-color:#e4eef9;
+  color: black;
+}
+
+.grade_div.D {
+  background-color:#ffda91;
+  color: black;
+}
+
+.grade_div.F {
+  background-color:#fcb918;
+  color: white;
+}

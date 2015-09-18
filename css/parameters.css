@@ -1,0 +1,60 @@
+/*
+  Control Panel Styles for Modeler Project
+  12/3/14
+  Ben Southgate (bsouthga@gmail.com)
+*/
+
+div#plan_cost {
+  display: block;
+  text-align: left;
+  font-size: 40px;
+  font-weight: 900;
+  white-space: nowrap;
+  color: #1696d2;
+}
+
+.param-btn {
+  width: 70%;
+  margin: 10px auto;
+  display: block;
+  text-align: center;
+}
+
+#parameters, #assumptions {
+  font-size: 14px;
+  overflow: hidden;
+  width: 100%;
+  display: block;
+}
+
+@media (max-width: 1200px) {
+  #parameters, #assumptions {
+    font-size: 10px;
+  }
+}
+
+#ss-toggle {
+  margin-top: 10px;
+}
+
+div.control-container .control-body {
+  background-color: #eee;
+  padding: 20px;
+  border-radius: 5px;
+  margin-top: 5px;
+  margin-bottom: 25px;
+}
+
+span.radio-title {
+  display: block;
+  width : 100%;
+}
+
+.radio-title i {
+  margin-top: 3px;
+  float: right;
+}
+
+.panel-description {
+  text-align: left;
+}

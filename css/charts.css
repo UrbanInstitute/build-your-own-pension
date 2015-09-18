@@ -1,0 +1,152 @@
+/*
+  Results Charts Styles for Modeler Project
+  12/3/14
+  Ben Southgate (bsouthga@gmail.com)
+*/
+
+
+.Modeler-chart {
+  font-size: 12px;
+  overflow: hidden;
+  background: white;
+  height: 100%;
+  width: 100%;
+  min-width: 220px;
+  min-height: 200px;
+  display: inline-block;
+  padding: 0px;
+}
+
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #777;
+  stroke-width: 1px;
+  shape-rendering: crispEdges;
+}
+
+.x.axis .tick line, .x.axis path.domain {
+  fill : none;
+  stroke : none;
+}
+
+p .x axis text{
+    margin: 10px;
+}
+
+
+.Modeler-line {
+  fill: none;
+  stroke-width: 3px;
+  stroke-linecap:round;
+  opacity: 0.9;
+}
+
+.Modeler-area {
+  opacity: 0.3;
+  display: none;
+}
+
+
+.Modeler-AXCont g:not(.zero) line {
+  stroke-dasharray: 3, 3;
+  stroke : #aaa;
+}
+
+.tooltip h2 {
+  font-size: 14px;
+  margin: 0px;
+  padding: 5px 0px;
+}
+
+.Modeler-AXCont g text.axis:hover {
+  font-weight: bold;
+}
+
+.title-text{
+  text-align: left;
+  font-weight: bold;
+}
+
+div.title-text.disabled {
+  text-align: left;
+  font-weight: normal;
+  color : #aaa;
+}
+
+div.title-text.disabled div {
+  color : #000;
+}
+
+
+.plot-more {
+  display: inline-block;
+  margin-left: 10px;
+  float: right;
+}
+
+.plot-more i {
+  margin-left: 5px;
+}
+
+
+
+/*  ----------------------------
+    Legend
+    ---------------------------- */
+
+#legend {
+  height: 10px;
+  line-height: 10px;
+  margin-bottom: 20px;
+  font-size: 12px;
+  width: 100%;
+  text-align: left;
+}
+
+#legend > span {
+  cursor: pointer;
+}
+
+
+#legend > span.disabled-series span.legend {
+  background-color: #aaa;
+}
+
+#legend > span.disabled-series {
+  color : #aaa;
+}
+
+#legend #title {
+  margin-right: 5px;
+}
+
+.legend {
+  display: inline-block;
+  width: 20px;
+  height: 4px;
+  border-radius: 5px;
+  margin-bottom: 2px;
+  margin-left: 8px;
+}
+
+.legend#a25 {
+  background-color: #1696d2;
+}
+
+.legend#a35 {
+  background-color: #fcb918;
+}
+
+.legend#a45 {
+  background-color: #000000;
+}
+
+.linechart.tooltip text {
+  font-size: 10px;
+}
+
+circle.Modeler-hover-point.out-of-bounds {
+  opacity: 0;
+}

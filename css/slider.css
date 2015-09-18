@@ -1,0 +1,93 @@
+/*
+  Range Slider Control Styles
+  12/3/14
+  Ben Southgate (bsouthga@gmail.com)
+*/
+
+
+div.slider-control:not(:last-child) {
+  padding-bottom: 10px;
+}
+
+.slider-description {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.slider-head:hover {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.slider-head {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.slider-text-input {
+  display : inline-block;
+  width : 60px;
+  margin : 0;
+  margin-right: 10px;
+  font-size: 16px;
+  height: 18px;
+  line-height: 18px;
+  font-weight: 300;
+  padding: 3px;
+  text-align: right;
+  color : #000;
+}
+
+.rangeslider,
+.rangeslider__fill {
+  background: #bdbdbd;
+  display: block;
+  height: 4px;
+  width: 100%;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+
+.rangeslider {
+  position: relative;
+  margin-top: 20px;
+}
+
+.rangeslider__fill {
+  background: #1696d2;
+  position: absolute;
+  top: 0;
+}
+
+.rangeslider__handle {
+  border: 4px solid #1696d2;
+  cursor : ew-resize;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: -8px;
+  background-color: #eee;
+  background-size: 100%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+.rangeslider__handle:after {
+  content: "";
+  display: block;
+  width: 18px;
+  height: 18px;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-size: 100%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+
